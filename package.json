@@ -1,0 +1,49 @@
+{
+  "name": "hono-cache",
+  "version": "0.1.0",
+  "description": "A lightweight Hono cache middleware extended with a purge (delete) function for flexible and efficient cache management.",
+  "keywords": [
+    "hono",
+    "cache",
+    "purge",
+    "delete"
+  ],
+  "homepage": "https://github.com/harryplusplus/hono-cache#readme",
+  "bugs": {
+    "url": "https://github.com/harryplusplus/hono-cache/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harryplusplus/hono-cache.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Harry Kim",
+    "email": "harryplusplus@gmail.com",
+    "url": "https://harryplusplus.com"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@swc/core": "1.11.29",
+    "@types/node": "22.15.29",
+    "tsup": "8.5.0",
+    "typescript": "5.8.3"
+  },
+  "peerDependencies": {
+    "hono": "^4.3.6"
+  }
+}
