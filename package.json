@@ -1,6 +1,6 @@
 {
   "name": "hono-cache",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight Hono cache middleware extended with a purge (delete) function for flexible and efficient cache management.",
   "keywords": [
     "hono",
